@@ -6,7 +6,10 @@ fn main() {
     println!("8th fibonaci value is {}", nth);
 }
 
-
+/**
+ * @description: Convert temperatures between Fahrenheit and Celsius.
+ * @author echorohit
+*/
 fn convert_fto_c(far: u32) -> f64 {
     println!("Your FAHRENHEIT temp is {}", far);
     let c = (far - 32) as f64 * 0.5556;
@@ -14,6 +17,10 @@ fn convert_fto_c(far: u32) -> f64 {
     c
 }
 
+/**
+ * @description: Generate the nth Fibonacci number.
+ * @author echorohit
+*/
 fn nth_fibonaci_number(n: u32) -> u32 {
     const PHI : f64 = 1.6180339;
     let f = [0, 1, 1, 2, 3, 5];
